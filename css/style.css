@@ -1,0 +1,53 @@
+/* regole generali */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* regole di debug */
+[class*="col-"] {
+  min-height: 100px;
+  background-color: lightgreen;
+  border: solid 1px black;
+  padding: 2px;
+  text-align: center;
+}
+/* .row .col-6 div  */
+[class*="col-"] > .row > [class*="col-"]{
+  background-color: salmon;
+  border-color: #fff;
+}
+
+/* regole centratura pagina */
+
+.ms_container{
+  padding: 0 10%;
+}
+.ms_container1{
+  padding: 0 20%;
+}
+.ms_container2{
+  padding: 0 15%;
+}
+
+/* sfondo nav */
+nav{
+  background-color: #2C3E50;
+}
+/* sfondo sezione jumbotron */
+#jumbotron{
+  background-color: #1ABC9C;
+}
+#portfolio{
+  background-color: #FFFFFF;
+}
+#about{
+  background-color: #1ABC9C;
+}
