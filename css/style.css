@@ -1,9 +1,9 @@
 /* regole generali */
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 
 img {
   max-width: 100%;
@@ -50,4 +50,23 @@ nav{
 }
 #about{
   background-color: #1ABC9C;
+}
+#foot1{
+  background-color: #2C3E50;
+}
+#foot2{
+  background-color: #000000;
+}
+
+/* REGOLE MEDIA QUERIES PARTICOLARI */
+@media all and (max-width: 768px){
+  .ms_container{
+    padding: 0 5%;
+  }
+  .ms_container1{
+    padding: 0 10%;
+  }
+}
+@media all and (min-width: 769px) and (max-width: 1200px){
+
 }
