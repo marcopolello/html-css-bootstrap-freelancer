@@ -84,7 +84,6 @@ h3, [class="text-"]{
 }
 h1, [class="text-"] {
   color: white;
-  text-align: center;
 }
 .divider-custom-line{
   background-color: white;
@@ -108,10 +107,31 @@ hr.rounded {
   font-size: 30px;
 }
 
-
+/* sezione portfolio */
 #portfolio{
   background-color: #FFFFFF;
 }
+#portfolio hr.rounded{
+  border-top: 8px solid black;
+}
+#portfolio span{
+  color: black;
+}
+.blocco2{
+  margin-top: 40px;
+}
+.blocco3{
+  padding: 5px;
+}
+#portfolio img{
+  border-radius: 10px;
+}
+#portfolio > div.ms_container{
+  margin-bottom: 60px;
+}
+
+
+
 #about{
   background-color: #1ABC9C;
 }
