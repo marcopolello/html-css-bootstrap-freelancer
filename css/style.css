@@ -12,7 +12,8 @@
 
 /* sovrascritto framework bootstrap */
 .container-fluid{
-  padding: 0;
+  padding-right: 0;
+  padding-left: 0;
 }
 
 /* regole di debug */
@@ -41,11 +42,30 @@
   padding: 0 15%;
 }
 
-/* sfondo nav */
-nav{
+/* nav */
+#ms_nav{
   background-color: #2C3E50;
+  border: none;
+  border-radius: 0;
+  margin-bottom: 0;
+  padding: 15px 0;
 }
-/* sfondo sezione jumbotron */
+h3, [class*="text-"]{
+  display: inline;
+  color: white;
+}
+#ms_nav .navbar-nav>li>a{
+  color: white;
+  font-size: 16px;
+}
+#ms_nav .navbar-nav{
+  margin: 0;
+}
+#ms_nav .navbar-toggle .icon-bar{
+  background-color: white;
+}
+
+/* sezione jumbotron */
 #jumbotron{
   background-color: #1ABC9C;
 }
