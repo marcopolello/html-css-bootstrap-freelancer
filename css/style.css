@@ -5,11 +5,15 @@
   box-sizing: border-box;
 } */
 
-img {
+/* img {
   max-width: 100%;
   height: auto;
-}
+} */
 
+/* sovrascritto framework bootstrap */
+.container-fluid{
+  padding: 0;
+}
 
 /* regole di debug */
 [class*="col-"] {
