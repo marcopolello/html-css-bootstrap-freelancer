@@ -50,7 +50,7 @@
   margin-bottom: 0;
   padding: 15px 0;
 }
-h3, [class*="text-"]{
+h3, [class="text-"]{
   display: inline;
   color: white;
 }
@@ -69,6 +69,20 @@ h3, [class*="text-"]{
 #jumbotron{
   background-color: #1ABC9C;
 }
+#jumbotron img{
+  width: 240px;
+  height: auto;
+}
+.blocco1{
+  margin-top: 60px;
+}
+h1, [class="text-"] {
+  color: white;
+  text-align: center;
+}
+
+
+
 #portfolio{
   background-color: #FFFFFF;
 }
