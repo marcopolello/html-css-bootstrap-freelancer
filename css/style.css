@@ -131,10 +131,26 @@ hr.rounded {
 }
 
 
-
+/* sezione about */
 #about{
   background-color: #1ABC9C;
 }
+.blocco4{
+  padding: 0 10px 0 0;
+}
+.blocco4_a{
+  padding: 0 0 0 10px;
+}
+#about p > button{
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+
+
+
+
+
 #foot1{
   background-color: #2C3E50;
 }
